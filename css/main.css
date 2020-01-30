@@ -99,44 +99,200 @@ textarea {
    ========================================================================== */
 header
 { 
-  height: 100px;
-  width: 100%;  
-  background-color: #4D9078;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 80px;
+  margin-top: initial;
+  background-color:#4D9078;
+}
 
+h1
+{
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+ul,li
+{
+  list-style: none;
+  display: inline;
+}
+
+nav p
+  {
+    display: inline-block;
+  }
+
+body 
+{
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+}
+.sectionGauche
+{
+  float: left;
+  background-color: white;
+  height: 50%;
+  width: 35%;
 }
 
 table
 {
   border-collapse: collapse;
-}
-
-th 
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-td, tr
-{
-  border: 1px solid black;
-  padding: 10px; 
 
 }
 
-.sectionTopLeft
+thead
+{
+  background-color: #4D9078;
+  color: white;
+}
+
+tbody
+{
+  background-color: white; 
+}
+td
+{
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+
+tr
+{
+  border: 1px solid rgb(204, 202, 202);;
+  text-align: center;
+  width: 100%;
+
+}
+
+.board1 
+{
+  background-color: white;
+  text-align: center;
+  width: 100%;
+
+}
+
+.board2
+{
+    margin-top: 40px;
+    width: auto;
+    height: auto;
+}
+
+.tr2
+{
+  border: none;
+}
+
+.sectionDroite
 
 {
-  background-color: greenyellow;
+  float: right;
   height: 50%;
-  width: 400px;
-  align-items: center;
-  justify-content: center;
+  width: 50%;
+  background-color: white;
+
 }
+
+.rondJaune
+
+{
+  margin:5px;
+  width:80px;
+  background:#F3DE8A;
+  height:80px;
+  text-align:center;
+  border-radius:100px;
+  line-height: 90px;
+  display: inline-block;
+}
+.rondRouge
+
+{
+  margin:5px;
+  width:80px;
+  background:#EB9486;
+  height:80px;
+  text-align:center;
+  border-radius:100px;
+  line-height: 90px;
+  display: inline-block;
+}
+
+.rondVert
+
+{
+  margin:5px;
+  width:80px;
+  background:#4D9078;
+  height:80px;
+  text-align:center;
+  border-radius:100px;
+  line-height: 90px;
+  display: inline-block;
+}
+
+
+.celluleverte
+
+{ 
+  padding: 88px;
+  background:#4D9078;
+  
+}
+
+.cellulerouge
+{
+
+  padding: 88px;
+  background:#EB9486;
+}
+
+.cellulejaune
+{
+  padding: 88px;
+  background:#F3DE8A; 
+}
+
+label {
+  padding-right: 10px;
+  font-size: 1rem;
+  
+}
+
+.progress-bar
+{  background: rgb(204, 202, 202);
+  height:60px;
+  text-align: center;
+  /* position: right; */}
+.progress
+{
+  font-family: 'Actor';
+  padding: 5px;
+  height: 50px;
+  background: #4D9078;
+}
+.progress span{ 
+  color: #FFF;
+}
+p
+{
+  font-family: 'Actor';
+  text-align: center;
+}
+.titleprogressbar
+{
+  font-family: 'Actor';
+  font-family: 'Actor';
+  float:left;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
